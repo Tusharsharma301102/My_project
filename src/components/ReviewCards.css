@@ -1,0 +1,37 @@
+.review-card {
+    height: 18rem;
+    width: 40rem;
+    background: linear-gradient(white 60%, rgb(244, 244, 255) 40%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(210, 210, 210);
+    padding: 2rem 2.5rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    flex: 0 0 auto;
+}
+
+.review-card p {
+    font-size: 14px;
+    color: rgb(100, 100, 100);
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.review-card .card-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 22rem;
+}
+
+.card-div h4 {
+    font-size: 16px;
+}
+
+.review-card img {
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(135, 135, 135);
+}

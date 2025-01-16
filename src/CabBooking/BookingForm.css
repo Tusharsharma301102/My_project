@@ -1,0 +1,88 @@
+.packages-div {
+    /* background: rgba(193, 255, 213, 0.1);
+    backdrop-filter: blur(5px); */
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 3rem 5rem;
+    justify-self: center;
+    width: 95%;
+    margin: 3rem 0rem;
+    /* border-radius: 20px;
+    border: 0.5px rgba(255, 255, 255, 0.4) solid; */
+}
+
+.packages-div h2 {
+    font-size: 2rem;
+    color: rgb(183, 255, 224);
+}
+
+.packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-self: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: #03300096 5px 5px 5px;
+    text-align: center;
+}
+
+.bookingForm {
+    background: #70ff9d4d;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    padding: 3rem 5rem;
+    justify-self: center;
+    width: 80%;
+    height: 70vh;
+    margin: 3rem;
+    border-radius: 20px;
+    border: 0.5px rgb(0, 164, 93) solid;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.input-div label {
+    font-size: 16px;
+    color: black;
+}
+
+.input-div input {
+    height: 3rem;
+    width: 15rem;
+    background: linear-gradient(rgba(255, 255, 255, 0) 5%, rgba(255, 255, 255, 0.562) 50%);
+    border-bottom: 1px rgb(0, 177, 121) solid;
+    padding: 10px 10px 5px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: black;
+}
+
+.bookingForm button {
+    background-color: rgb(0, 180, 114);
+    height: 3rem;
+    width: 7rem;
+    border: 1px solid rgba(0, 145, 72, 0.589);
+    border-radius: 5px;
+    align-self: center;
+}
+
+.bookingForm button:hover {
+    background-color: rgb(77, 255, 157);
+}
+
+.bookingForm button:pr {
+    background-color: rgb(77, 157, 126);
+}

@@ -1,0 +1,77 @@
+.businessCard {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 10%, black), url("https://ucarecdn.com/7895b2c1-6292-47ea-8291-267a299436a2/-/preview/1000x680/");
+    background-size: cover;
+    width: 85%;
+    height: 70vh;
+    border: 0.5px rgba(180, 180, 180, 0.4) solid;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin: auto;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 55%;
+}
+
+.card-content > h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: rgb(162, 255, 162);
+}
+
+.card-content > p {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.card-content-div {
+    background-color: rgb(0, 206, 89);
+    padding: 1.7rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    width: 87%;
+    gap: 1rem;
+    margin: 1rem 0rem;
+}
+
+.card-content-div hr {
+    width: 2px;
+    height: 4rem;
+    background: linear-gradient(rgb(0, 206, 89), white, rgb(0, 206, 89) );
+    margin: 0 0.5rem;
+}
+
+.card-content-div-div h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.card-content-div-div p {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.card-content button {
+    align-self: self-start;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(226, 255, 236);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+}
+
+.card-content button:hover {
+    background-color: rgb(132, 255, 175);
+}

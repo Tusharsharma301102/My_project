@@ -1,0 +1,51 @@
+.rides {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 5rem;
+}
+
+.rides>img {
+    height: 7rem;
+    border-radius: 20px;
+    margin: 1rem;
+}
+
+.rides h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(0, 167, 75);
+}
+
+.rides p {
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+}
+
+.rides-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    padding: 0.8rem 4rem;
+    background-color: rgb(242, 242, 255);
+    border-radius: 10px;
+}
+
+.rides-div span {
+    font-size: 20px;
+}
+
+.rides-div hr {
+    width: 1px;
+    height: 2rem;
+}
+
+.cards-div {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}

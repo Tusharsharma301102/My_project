@@ -1,0 +1,94 @@
+.ride-safe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+}
+
+.ride-safe #safe {
+    width: 7rem;
+    border-radius: 15px;
+    margin-bottom: 4rem;
+}
+
+.ride-safe h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(0, 210, 105);
+    line-height: 4.5rem;
+}
+
+.ride-safe>p {
+    font-size: 18px;
+    color: rgb(79, 79, 79);
+    margin-bottom: 2rem;
+    width: 45%;
+    text-align: center;
+}
+
+.ride-safe-div {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    margin-top: 2rem;
+}
+
+.ride-safe-div-div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.ride-safe-div-div1 img {
+    width: 22rem;
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.ride-safe-div-div1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 3rem;
+}
+
+.ride-safe-div-div1 div h4 {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.ride-safe-div-div1 div p {
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+    text-align: left;
+}
+
+.ride-safe-div-div2 {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    gap: 5rem;
+}
+
+.ride-safe-div-div2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* margin-top: 4rem; */
+}
+
+.ride-safe-div-div2 div h4 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.ride-safe-div-div2 div p {
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+    text-align: left;
+}

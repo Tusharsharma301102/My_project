@@ -1,0 +1,34 @@
+.content {
+    width: 90%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 20px;
+    border: 0.5px green solid;
+    box-shadow: 0 0 3px rgb(111, 255, 192), 0 0 5px rgb(139, 255, 234) inset;
+    padding: 2rem 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.content hr {
+    background: linear-gradient(90deg, white, rgb(0, 255, 123), white);
+    height: 1px;
+}
+
+.content h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: rgb(25, 255, 136);
+    margin: 0;
+}
+
+.content p {
+    font-size: 20px;
+    color: rgb(31, 31, 31);
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}

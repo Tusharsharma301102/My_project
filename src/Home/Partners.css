@@ -1,0 +1,57 @@
+#partners-hr {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, white, rgb(136, 255, 182), white);
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient( rgb(255, 255, 255) 20%, rgb(192, 255, 240) 80%);
+    padding: 3rem 6rem;
+}
+
+.partners h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(0, 198, 115);
+}
+
+.tech-partners, .charging-infra-partners {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 50%;
+}
+
+.charging-infra-partners {
+    align-self: last baseline;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.img-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+}
+
+.img-div img {
+    height: 7rem;
+    width: 16rem;
+    background-color: white;
+    padding: 0.5rem;
+    border: 0.5px rgb(123, 255, 158) solid;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(137, 255, 204), 0 0 5px rgb(139, 255, 234) inset, 3px 7px 10px rgb(193, 193, 193);
+}
